@@ -1,0 +1,18 @@
+/*
+CTC Separate Stylesheet
+Updated: 2021-12-22 06:05:21
+*/
+
+.mg-latest-news {
+	background: white;
+}
+
+.mg-latest-news .bn_title {
+  background-color: white;
+}
+.mg-latest-news .mg-latest-news-slider a{
+  color: black;
+}
+.mg-latest-news .mg-latest-news-slider a::before {
+    color: white;
+}

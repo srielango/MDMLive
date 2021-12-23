@@ -1,0 +1,97 @@
+/*
+CTC Separate Stylesheet
+Updated: 2021-12-22 06:05:18
+Theme Name: Newses Child
+Theme URI: https://themeansar.com/free-themes/newses/
+Template: newses
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Newses is an indispensable Responsive News and Magazine template with a clean, modern design suitable for everyone who wants to share their stories and the latest breaking news or the hottest products. the theme comes light and dark color mode, Newses is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals, personal blogs, newspaper, agencies, publishing or review siteand any creative website. Newses is SEO friendly, WPML, Gutenberg, WooCommerce, translation and RTL ready. We offer great support and friendly help!. Live preview : https://demos.themeansar.com/newses and documentation at https://docs.themeansar.com/docs/newses/
+Tags: one-column,two-columns,right-sidebar,flexible-header,custom-background,custom-header,custom-menu,editor-style,featured-images,footer-widgets,theme-options,threaded-comments,rtl-language-support,translation-ready,full-width-template,custom-logo,blog,news
+Version: 1.2.9.26.1640153118
+*/
+
+.back-img {
+    /*
+    background-color: #333;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	position: relative;
+	background-size: contain;
+    overflow: hidden;
+    */
+
+    background-color: #333;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	position: relative;
+	background-size: contain;
+    overflow: visible;
+}
+
+.mg-latest-news-sec {
+	padding: 0;
+	background: #fff;
+	box-shadow: 0 3px 5px rgba(70, 70, 70, 0.1);
+}
+.mg-latest-news{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+.mg-latest-news .bn_title h2{
+  display: inline-block;
+  margin: 0;
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 20px;
+  color: black;
+  height: 50px;
+  box-sizing: border-box;
+  font-weight: 600;
+  border-right: 2px solid #fff;
+}
+.mg-latest-news .bn_title span{
+  width: 0;
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  height: 0;
+}
+.mg-latest-news .bn_title {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  z-index: 100;
+}
+.mg-latest-news .mg-latest-news-slider a{
+  text-decoration: none;
+  font-weight: normal;
+  padding-left: 20px;
+}
+.mg-latest-news .mg-latest-news-slider a .img{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	margin-right: 8px;
+	object-fit: cover;
+}
+.mg-latest-news .mg-latest-news-slider {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  left: 200px;
+  top: 5px;
+  right: 40px;
+  height: 50px;
+  font-size: 16px;
+  overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}

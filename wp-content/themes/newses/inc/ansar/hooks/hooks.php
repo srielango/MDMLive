@@ -78,13 +78,12 @@ if (!function_exists('newses_banner_3_posts')):
         <div class="row mt-3">
                   <?php if ($slider_3_all_posts->have_posts()) :
                         while ($slider_3_all_posts->have_posts()) : $slider_3_all_posts->the_post();
-                        $url = newses_get_freatured_image_url($post->ID, 'full'); ?>
+                        $url = newses_get_freatured_image_url($post->ID, 'postImage'); ?>
                   <div class="col-md-4 col-sm-4">
                     <div class="mg-blog-post-box sm shd"> 
                         <div class="mg-blog-thumb sm back-img" style="background-image: url('<?php echo esc_url($url); ?>');">
                                     <a href="<?php the_permalink(); ?>" class="link-div"></a>
                             <div class="mg-blog-category"> <?php newses_post_categories(); ?> </div>
-                            <span class="post-form"><i class="fa fa-camera"></i></span>
                         </div>
                         <article class="small minh">
                           
@@ -357,13 +356,13 @@ if (!function_exists('newses_front_page_banner_sidebar_2_post')) :
                   <div class="row">
                     <?php if ($editiorials_all_posts->have_posts()) :
                         while ($editiorials_all_posts->have_posts()) : $editiorials_all_posts->the_post();
-                        $url = newses_get_freatured_image_url($post->ID, 'full'); ?>
+                        $url = newses_get_freatured_image_url($post->ID, 'postImage'); ?>
                         <div class="col-md-12 col-sm-6">
                           <div class="mg-blog-post-box sm mb-4 shd">
                             <div class="mg-blog-thumb lg back-img" style="background-image: url('<?php echo esc_url($url); ?>');">
                                 <a href="<?php the_permalink(); ?>" class="link-div"></a>
                                 <div class="mg-blog-category"> <?php newses_post_categories(); ?> </div>
-                                <span class="post-form"><i class="fa fa-camera"></i></span>
+                                
                             </div>
                             <article class="small minh">
                               <h4 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>

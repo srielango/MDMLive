@@ -42,4 +42,10 @@ function acf_set_featured_image( $value, $post_id, $field  ){
 
 // acf/update_value/name={$field_name} - filter for a specific field based on it's name
 add_filter('acf/update_value/name=My_Featured_Image', 'acf_set_featured_image', 10, 3);
- 
+
+function newses_setup_additional() {
+    add_image_size('postImage', 480, 350, true);
+    add_image_size('headerImageBackground', 1600, 600, true);
+}
+
+add_action( 'after_setup_theme', 'newses_setup_additional' );

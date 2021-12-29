@@ -25,12 +25,11 @@ get_header(); ?>
                                     while ( have_posts() ) : the_post(); ?>
                                     <div class="d-md-flex mg-posts-sec-post mb-4 w-100">
                                         <div class="col-12 col-md-6">
-                                           <?php $url = newses_get_freatured_image_url($post->ID, 'full'); ?>
+                                           <?php $url = newses_get_freatured_image_url($post->ID, 'postImage'); ?>
                                     <div class="mg-blog-thumb back-img md" style="background-image: url('<?php echo esc_url($url); ?>');">
                                             <div class="mg-blog-category">
                                             <?php newses_post_categories(); ?>
                                             </div>
-                                                <span class="post-form"><i class="fa fa-camera"></i></span>
                                             </div> 
                                         </div>
                                             <div class="mg-sec-top-post col">

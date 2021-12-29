@@ -8,7 +8,7 @@ if ($newses_all_posts_main->have_posts()) :
     while ($newses_all_posts_main->have_posts()) : $newses_all_posts_main->the_post();
 
         global $post;
-        $newses_url = newses_get_freatured_image_url($post->ID, 'newses-slider-full');
+        $newses_url = newses_get_freatured_image_url($post->ID, 'postImage');
 
         ?>
                 
@@ -17,7 +17,6 @@ if ($newses_all_posts_main->have_posts()) :
                             <div class="mg-blog-post-3 lg back-img"  <?php if (!empty($newses_url)): ?> style="background-image: url('<?php echo esc_url($newses_url); ?>');" <?php endif; ?> >
                               <div class="mg-blog-inner">
                                   <div class="mg-blog-category"> <?php newses_post_categories(); ?> </div>
-                                  <span class="post-form"><i class="fa fa-camera"></i></span>
                                   <h4 class="title lg"> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                   <?php newses_post_meta(); ?>
                               </div>

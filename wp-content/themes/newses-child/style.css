@@ -87,3 +87,8 @@ Version: 1.2.9.26.1640153118
     white-space: nowrap;
     box-sizing: border-box;
 }
+.mg-sidebar{
+	position: sticky;
+  top: 0;
+}
+

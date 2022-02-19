@@ -149,13 +149,14 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                                 <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'newses' ) ); ?>">
 								<?php
 								/* translators: placeholder replaced with string */
-								printf( esc_html__( 'Proudly powered by %s', 'newses' ), 'WordPress' );
+								printf( esc_html__( 'Proudly powered by %s', 'newses' ), 'UPro' );
 								?>
 								</a>
 								<span class="sep"> | </span>
+                                Copyright: Mukhangal – All Rights Reserved.
 								<?php
 								/* translators: placeholder replaced with string */
-								printf( esc_html__( 'Theme: %1$s by %2$s.', 'newses' ), 'Newses', '<a href="' . esc_url( __( 'https://themeansar.com/', 'newses' ) ) . '" rel="designer">Themeansar</a>' );
+								//printf( esc_html__( 'Theme: %1$s by %2$s.', 'newses' ), 'Newses', '<a href="' . esc_url( __( 'https://themeansar.com/', 'newses' ) ) . '" rel="designer">Themeansar</a>' );
 								?>
 								</p>
                             </div>
